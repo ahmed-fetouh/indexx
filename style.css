@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color:rgb(215, 5, 5);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+.navigation a{
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color:rgb(101, 101, 101);
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    background:url(photo/backgroung.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main h1{
+    color: white;
+    font-size: 1,4em;
+    font-weight: 600;
+    align-items: center;
+    
+}
+.main h1 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+    font-size: 3em;
+    font-weight: 800;
+}
+.cosial a{
+color:white;
+font-size: 1.8em;
+padding-right: 30px;
+}
+.aboutme{
+background-color:black ;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 2.3em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color:rgb(215, 5, 5);
+    width: 21.4em;
+    box-shadow: 0 5px rgb(117 0 0 /100%);
+border-radius: 10px;
+padding: 25px;
+margin: 15px;
+transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+     color: rgb(117, 0, 0);
+}
+.icon{
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+}
+.inf{
+    text-align: center;
+}
+.inf h3{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10px;
+
+}
+.photos{
+    background-color:black;
+
+}
+.photos .content{
+    margin-top: 30px;
+}
+.photo-card{
+    background-color: black;
+    border: 1px solid rgb(215, 5, 5);
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    padding: 25px;
+}
+.photo-card:hover{
+    transform: scale(1.1);
+}
+.imgage img{
+    width: 100%;
+}
+.photo-title{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 2.3em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.contact-me{
+    background-color: black;
+}
+.contact-me.content{
+    margin-top: 30px;
+}
+.contact-title{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 2.3em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.contact-card{
+    background-color:rgb(215, 5, 5);
+    width: 21.4em;
+    box-shadow: 0 5px rgb(117 0 0 /100%);
+border-radius: 10px;
+padding: 25px;
+margin: 15px;
+transition: 0.7s ease;
+}
+.contact-card:hover{
+    transform: scale(1.1);
+     color: rgb(117, 0, 0);
+}
+.contact-icon{
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+}
+.footer{
+    background-color:rgb(215, 5, 5);
+    color: black;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 650;
+    color: white;
+}
+.footer-title span{
+    color: black;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.cosial-footer a{
+    color:black;
+font-size: 1.8em;
+padding-right: 30px;
+}
+@media (max-width:1023px){
+.header{
+padding: 12px 20px;
+}
+
+.navigation a{
+    padding-left: 10ox;
+}
+.title{
+    font-size: 1.8em;
+}
+.section{
+    padding: 80px 20px;
+}
+
+}
+@media (max-width:1023px){
+    body {
+        font-size: 10px;
+    }
+}
+
